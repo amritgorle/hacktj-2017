@@ -26,5 +26,5 @@ class EchoBot(fbchat.Client):
         		s+=elem+" "
         	self.send(recipient_id,s,message_type=thread_type)
 password=input("Password: ")
-bot = EchoBot("rishabh.krishnan@gmail.com", password)
+bot = EchoBot("Username", password)
 bot.listen()
